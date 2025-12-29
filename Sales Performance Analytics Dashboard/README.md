@@ -1,30 +1,31 @@
-# 📊 Project 1: Sales Performance Analytics Dashboard
+# 📊 Sales Performance Analytics Dashboard
 
 ## 📌 Project Overview
-This project focuses on analyzing sales data to help businesses understand revenue trends, order performance, and regional contributions.  
-An end-to-end analytics pipeline was built using **MySQL, Python, Excel, and Power BI** to transform raw data into actionable business insights.
+This project analyzes sales data to help businesses understand **revenue trends, order performance, and regional contributions**.  
+An **end-to-end analytics pipeline** was built using **MySQL, Python, Excel, and Power BI**, transforming raw transactional data into **interactive, decision-ready insights**.
 
 ---
 
 ## 🎯 Business Objective
-- Track overall sales performance
-- Monitor revenue trends over time
+- Track overall sales performance using key KPIs
+- Analyze revenue trends over time
 - Identify top-performing cities and product categories
-- Support data-driven business decisions through interactive dashboards
+- Enable business users to explore data through interactive filters and slicers
+- Support data-driven decision-making with clean visual storytelling
 
 ---
 
 ## 🛠️ Tools & Technologies Used
-- **MySQL** – Data storage, joins, and analytical views  
-- **Python (Pandas, SQLAlchemy)** – Data extraction and analysis  
+- **MySQL** – Data storage, joins, aggregations, and analytical views  
+- **Python (Pandas, SQLAlchemy)** – Data extraction, transformation, and analysis  
 - **Excel** – Data validation using Pivot Tables  
-- **Power BI** – Dashboard creation, KPIs, slicers, and visual analysis  
+- **Power BI** – KPI dashboards, DAX measures, slicers, interactions, and visualization  
 
 ---
 
 ## 🗂️ Project Structure
 
-Project_One/
+Sales Performance Analytics Dashboard/
 ├── SQL/
 │ └── sales_analysis.sql
 ├── Python/
@@ -37,7 +38,6 @@ Project_One/
 │ └── Sales_Analytics_Dashboard.pbix
 └── README.md
 
-
 ---
 
 ## 📊 Key KPIs
@@ -45,45 +45,52 @@ Project_One/
 - **Total Orders**
 - **Average Order Value (AOV)**
 
+These KPIs are calculated using **DAX measures** and dynamically update based on slicer selections.
+
 ---
 
 ## 📈 Dashboard Features
-- KPI cards for quick business overview
-- Monthly revenue trend analysis
-- Revenue distribution by city
-- Revenue contribution by product category
-- Interactive **date slicer** for time-based analysis
-- Cross-filtering between visuals for dynamic insights
+- KPI cards for high-level business overview
+- Monthly revenue trend (line chart)
+- Revenue breakdown by city (bar chart)
+- Revenue contribution by product category (donut chart)
+- **Between date slicer** for time-range analysis
+- Interactive **city and category filtering**
+- Cross-filtering enabled between all visuals
+- Clean alignment, consistent sizing, and professional layout
 
 ---
 
 ## 🔍 Key Insights
-- Revenue trends vary significantly across months, indicating seasonal patterns
-- A small number of cities contribute a major share of total revenue
-- Certain product categories dominate overall sales
-- Interactive filtering enables quick identification of high-performing segments
+- Revenue shows clear variation across months, indicating possible seasonal patterns
+- A small number of cities contribute a majority of total revenue
+- Certain product categories dominate overall sales performance
+- Interactive filters allow quick identification of high-performing regions and categories
 
 ---
 
 ## 🧠 Key Learnings
-- Built an end-to-end analytics workflow from database to dashboard
-- Validated data consistency across SQL, Python, and Excel
-- Designed clean, business-friendly Power BI dashboards
-- Implemented DAX measures and visual interactions
+- Built a complete analytics workflow from database to dashboard
+- Ensured metric consistency across SQL, Python, and Excel
+- Gained hands-on experience with Power BI DAX, slicers, and visual interactions
+- Applied dashboard design best practices such as alignment, spacing, and clarity
+- Learned how to validate and test dashboards in Reading View
 
 ---
 
 ## 🚀 Outcome
 This project demonstrates the ability to:
-- Work with relational databases
-- Perform data analysis using Python
-- Validate metrics using Excel
+- Work with relational databases and structured data
+- Perform sales analysis using Python
+- Validate analytical results using Excel
 - Build professional, interactive dashboards in Power BI
+- Translate data into insights that support business growth
 
 ---
 
 ## 📌 Future Improvements
 - Add profit and cost analysis
-- Implement Top-N product analysis
-- Include month-over-month growth metrics
-- Publish dashboard to Power BI Service for online access
+- Implement Top-N product performance analysis
+- Include month-over-month and year-over-year growth metrics
+- Publish the dashboard to Power BI Service for online sharing
+- 
