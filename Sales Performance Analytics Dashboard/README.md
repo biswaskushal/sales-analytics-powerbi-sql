@@ -93,4 +93,12 @@ This project demonstrates the ability to:
 - Implement Top-N product performance analysis
 - Include month-over-month and year-over-year growth metrics
 - Publish the dashboard to Power BI Service for online sharing
-- 
+
+---
+
+## 🖼️ Dashboard Preview
+
+### 🔹 Sales Analytics Dashboard (Power BI)
+
+![Sales Analytics Dashboard](screenshots/dashboard_overview.png)
+
