@@ -1,0 +1,5 @@
+CREATE DATABASE Orders;
+
+USE Orders;
+
+DROP DATABASE IF EXISTS Orders
